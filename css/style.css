@@ -1,0 +1,58 @@
+
+.page-header{
+    background-color: #414040;
+}
+
+.logo-title{
+    display:inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 2em;
+    padding-left: 20px;
+    }
+    
+    ul.navigation {
+        float:right;
+        padding-right: 20px;
+        line-height: 2em;
+        }
+
+        a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+    ul.navigation li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+      color: black;
+          }
+
+    .hero{
+            background-color:#414040;
+            background-size:cover;
+            height:450px;
+    }
+
+    .hero-message{
+        font-family:'Antic', arial;
+        padding: 175px 10% 0;
+        color: white;
+        text-align: center;
+        margin: 0 10
+      }
+
+      .hero-message a.button{
+        text-decoration: none;
+        color: black;
+        font-weight:700;
+        background-color: gold;
+        padding:8px 15px;
+        border-radius: 25px;
+        display:inline-block;
+        margin-top: 15px;
+       }
+    
