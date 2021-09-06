@@ -2,20 +2,11 @@
 .page-header{
     background-color: #414040;
 }
-
-.logo-title{
-    display:inline;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 3px;
-    line-height: 2em;
-    padding-left: 20px;
-    }
     
-    ul.navigation {
-        float:right;
-        padding-right: 20px;
-        line-height: 2em;
+ ul.navigation {
+     float:right;
+     padding-right: 20px;
+    line-height: 2em;
         }
 
         a:link, a:visited,  a:hover, a:active
@@ -37,22 +28,46 @@
             height:450px;
     }
 
-    .hero-message{
+    .hero-message p{
         font-family:'Antic', arial;
-        padding: 175px 10% 0;
+        padding: 300px 0% 0;
         color: white;
         text-align: center;
-        margin: 0 10
+        position:relative;
+        bottom: 300px;
+     
+      }
+
+      .hero-message h1{
+        font-family:'Antic', arial;
+        padding:0px 10% 0;
+        color: white;
+        text-align: center;
+       top: 50px;
       }
 
       .hero-message a.button{
-        text-decoration: none;
         color: black;
         font-weight:700;
-        background-color: gold;
+        background-color: white;
         padding:8px 15px;
         border-radius: 25px;
-        display:inline-block;
-        margin-top: 15px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
        }
+
     
+    
+    ul.footer nav li{
+        
+            list-style: none;
+            display: inline;
+            margin: 0 10px;
+          color: black;
+              
+          }
+           
